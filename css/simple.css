@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: Arvin;
+    src: url("../fonts/Arvin light.ttf");
+}
+
+.h1Size {
+    font-size: 3.5em;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top: -50px;
+    transition: top 0.3s;
+    height: 50px;
+  /*  background-color: rgba(0, 0, 0, .1); */
+    z-index: 99;
+    text-align: center
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.pSize {
+    font-size: 1.3em;
+}
+
+.pAboutSize {
+    font-size: 1.6em;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #9bc2cf;
+}
+
+nav a:active {
+    color: #9bc2cf;
+}
+
+.aboutFont {
+    font-family: "Arvin", serif;
+    font-size: x-large;
+    color: #fff;
+}
+
+.sect {
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.subsect {
+    height: 50%;
+    background-color: rgba(0,0,0,.8);
+}
+
+.subsect1 {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.leftAlignText {
+    text-align: left;
+    padding: 0px 0px 0px 80px;
+}
+
+.LeftAlignH1 {
+    text-align: left;
+    padding: 100px;
+    width: 60%;
+}
+
+.sizeForm {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.centerButton {
+   display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Center {
+    text-align: center;
+}
+
+.sect1 {
+    background-image: linear-gradient(rgba(26,26,26,0.7), rgba(26, 26, 26, 0.7)), url("../images/cup.jpg");
+
+}
+
+.sect2 {
+    background-image: linear-gradient(rgba(26,26,26,0.8), rgba(26, 26, 26, 0.8)), url("../images/canyon.jpg");
+    height: 120%;
+}
+
+.sect3 {
+    background-image: linear-gradient(rgba(26,26,26,0.9), rgba(26, 26, 26, 0.9)), url("../images/writing.jpg");
+    height: 120%;
+}
+
+.sect4 {
+    background-image: linear-gradient(rgba(26,26,26,0.9), rgba(26, 26, 26, 0.9)), url("../images/wiring.jpg");
+    height: 120%;
+}
+
+.sect5 {
+    background-image: linear-gradient(rgba(26,26,26,0.9), rgba(26, 26, 26, 0.9)), url("../images/library.jpg");
+    height: 120%;
+}
+
+.sect6 {
+    background-image: linear-gradient(rgba(26,26,26,0.75), rgba(26, 26, 26, 0.75)), url("../images/code.png");
+    height: 120%;
+}
+
+.sect7 {
+    background-image: linear-gradient(rgba(26,26,26,0.8), rgba(26, 26, 26, 0.8)), url("../images/contact.jpg");
+    height: 120%;
+}
